@@ -33,7 +33,6 @@ Everything you need is on my website 👇
 
 ![Homepage Screenshot](src/img/sc1.png)
 
-![Homepage Screenshot](src/img/sc2.png)
-
 
 ![Homepage Screenshot](src/img/sc2.png)
+
