@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="src/styles/output.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+
+<body class="font-gellix flex justify-center">
+    <div class="container min-h-screen flex py-[50px]">
+        <div class="w-full xl:w-1/2 h-full">
+            <div class="flex items-center gap-2 mb-[70px] ml-5">
+                <img src="src/img/logo.png" alt="logo" class="w-[35px] h-[38px]">
+                <p class="font-[700] text-[18px] sm:text-[20px]">Flickory</p>
+            </div>
+            <div class="flex flex-wrap px-[5%] sm:px-[15%]">
+                <div class="w-full flex flex-wrap mb-[30px] justify-center items-center sm:flex-col">
+                    <h2 class="font-[600] text-[34px] mb-[10px]">Welcome Back, John</h2>
+                    <p class="font-[400] text-[16px] text-[#A7A7A7]">Welcome back! Please enter your details</p>
+                </div>
+                <div class="w-full font-[500] text-[16px] mb-[30px]">
+                    <a href="#"
+                        class="flex justify-center items-center gap-2.5  py-[15px] rounded-[20px] border-[#E7E7E7] border-[1px] hover:border-[#bfbfbf] transition duration-300 ">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M27.766 16.2764C27.766 15.4607 27.6999 14.6406 27.5588 13.8381H16.24V18.459H22.7217C22.4528 19.9494 21.5885 21.2678 20.323 22.1056V25.1039H24.19C26.4609 23.0139 27.766 19.9273 27.766 16.2764Z"
+                                fill="#4285F4" />
+                            <path
+                                d="M16.24 28.0008C19.4764 28.0008 22.2058 26.9382 24.1944 25.1039L20.3274 22.1055C19.2516 22.8375 17.8626 23.252 16.2444 23.252C13.1138 23.252 10.4593 21.1399 9.50693 18.3003H5.51649V21.3912C7.5536 25.4434 11.7028 28.0008 16.24 28.0008Z"
+                                fill="#34A853" />
+                            <path
+                                d="M9.50254 18.3003C8.99987 16.8099 8.99987 15.1961 9.50254 13.7058V10.6148H5.5165C3.8145 14.0056 3.81448 18.0005 5.51649 21.3912L9.50254 18.3003Z"
+                                fill="#FBBC04" />
+                            <path
+                                d="M16.24 8.74966C17.9508 8.7232 19.6043 9.36697 20.8433 10.5487L24.2694 7.12262C22.1 5.0855 19.2207 3.96553 16.24 4.00081C11.7028 4.00081 7.55361 6.55824 5.5165 10.6148L9.50254 13.7058C10.4505 10.8617 13.1094 8.74966 16.24 8.74966Z"
+                                fill="#EA4335" />
+                        </svg>
+                        <span>Log In with Google</span>
+                    </a>
+                </div>
+                <div class="flex w-full items-center justify-between mb-[30px]">
+                    <span class="w-[22%] h-[1px] bg-[#F1F1F1]"></span>
+                    <span class="text-[#CECECE] font-[500] text-[14px]">Or Log In with email</span>
+                    <span class="w-[22%] h-[1px] bg-[#F1F1F1]"></span>
+                </div>
+                <div
+                    class="w-full flex justify-start items-center py-[15px] px-[20px] rounded-[20px] border-[#E7E7E7] border-[1px] mb-[20px]">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.5449 9.01898C17.5449 9.01898 14.3349 12.8716 11.987 12.8716C9.64016 12.8716 6.39404 9.01898 6.39404 9.01898"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.45209 11.9688C2.45209 5.13069 4.83304 2.85199 11.9759 2.85199C19.1188 2.85199 21.4997 5.13069 21.4997 11.9688C21.4997 18.8059 19.1188 21.0856 11.9759 21.0856C4.83304 21.0856 2.45209 18.8059 2.45209 11.9688Z"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="h-[24px] w-[1px] bg-[#CECECE] ml-[20px]"></span>
+                    <input type="email" name="email" id="email"
+                        class="outline-0 ml-[20px] w-[70%] placeholder:font-[500] text-[16px] text-[#A7A7A7]"
+                        placeholder="Email address">
+                </div>
+                <div
+                    class="w-full relative flex justify-start items-center py-[15px] px-[20px] mb-[20px] rounded-[20px] border-[#E7E7E7] border-[1px]">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10.6888 12.0001C10.6888 13.0231 9.8598 13.8521 8.8368 13.8521C7.8138 13.8521 6.9848 13.0231 6.9848 12.0001C6.9848 10.9771 7.8138 10.1481 8.8368 10.1481H8.8398C9.8618 10.1491 10.6888 10.9781 10.6888 12.0001Z"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M10.6918 12.0001H17.0098V13.8521" stroke="black" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M14.182 13.8521V12.0001" stroke="black" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.74988 12.0001C2.74988 5.06312 5.06288 2.75012 11.9999 2.75012C18.9369 2.75012 21.2499 5.06312 21.2499 12.0001C21.2499 18.9371 18.9369 21.2501 11.9999 21.2501C5.06288 21.2501 2.74988 18.9371 2.74988 12.0001Z"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="h-[24px] w-[1px] bg-[#CECECE] ml-[20px]"></span>
+                    <input type="password" name="psw" id="psw"
+                        class="outline-0 ml-[20px] w-[70%] placeholder:font-[500] text-[16px] text-[#A7A7A7]"
+                        placeholder="Min, 8 Characters">
+                    <svg class="absolute right-[20px] cursor-pointer" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.1643 12.0521C15.1643 13.7981 13.7483 15.2141 12.0023 15.2141C10.2563 15.2141 8.84033 13.7981 8.84033 12.0521C8.84033 10.3051 10.2563 8.89014 12.0023 8.89014C13.7483 8.89014 15.1643 10.3051 15.1643 12.0521Z"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.75031 12.0521C2.75031 15.3321 6.8923 19.3541 12.0023 19.3541C17.1113 19.3541 21.2543 15.3351 21.2543 12.0521C21.2543 8.76912 17.1113 4.75012 12.0023 4.75012C6.8923 4.75012 2.75031 8.77212 2.75031 12.0521Z"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="w-full flex items-center justify-between mb-[20px] px-2">
+                    <div class="flex items-center">
+                        <input type="checkbox" name="check" id="check"
+                            class="appearance-none mr-[7px] bg-[#E8E8E8] w-5 h-5 rounded-md">
+                        <span class="text-[#0B0B0B] text-[14px] font-[500] mr-[3px]">Remember me</span>
+                        <span class="text-[#CECECE] text-[14px] font-[500]">(15 days)</span>
+                    </div>
+                    <div>
+                        <a href="#" class="text-[#0B0B0B] text-[14px] font-[500] underline">Forgot password?</a>
+                    </div>
+                </div>
+                <div class="w-full font-[500] text-[16px] mb-[20px]">
+                    <a href="#"
+                        class="flex justify-center items-center gap-2.5 text-[#0B0B0B] text-[16px] font-[600] py-[15px] rounded-[20px] bg-[#FBAD04] hover:bg-[#ffba26] transition duration-300 ">
+                        Log In </a>
+                </div>
+                <div class="w-full flex items-center justify-center mb-[80px]">
+                    <span class="text-[#A7A7A7] text-[14px] font[500] mr-[5px]">Don’t have an account?</span>
+                    <a href="#" class="font-gellix text-[14px] font-[600] underline">Sign up</a>
+                </div>
+                <div class="w-full flex items-center justify-center">
+                    <a href="#" class=" text-[14px] text-[#A7A7A7] font-[400]">By Logging In, you agree to our <span
+                            class="text-black font-[600] underline cursor-pointer">Terms of Service</span> and <span
+                            class="text-black font-[600] underline cursor-pointer">Privacy Policy.</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="hidden w-1/2 min-h-full p-13 bg-[url(../img/rightImg.png)] bg-cover bg-center bg-no-repeat rounded-[40px] xl:flex justify-between items-end">
+            <div class="w-2/3">
+                <p class="font-creattion font-[400] text-[44px] text-white">Josephine Michaels</p>
+                <p class="font-[500] text-[18px] text-white">Founder, Catalog</p>
+                <p class="font-[500] text-[14px] text-[#ffffffa9]">Web Design Agency</p>
+            </div>
+            <div class="flex flex-wrap justify-end items-center w-1/3 gap-7">
+                <div class="flex items-center">
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.5923 10.835C14.3549 11.0651 14.2458 11.3978 14.2999 11.7242L15.1148 16.2342C15.1836 16.6164 15.0222 17.0033 14.7023 17.2242C14.3888 17.4533 13.9717 17.4808 13.6298 17.2975L9.56989 15.18C9.42872 15.1048 9.27197 15.0645 9.11155 15.0599H8.86314C8.77697 15.0728 8.69264 15.1002 8.61564 15.1424L4.5548 17.27C4.35405 17.3708 4.12672 17.4066 3.90397 17.3708C3.3613 17.2682 2.99922 16.7512 3.08814 16.2058L3.90397 11.6958C3.95805 11.3667 3.84897 11.0321 3.61155 10.7983L0.301469 7.59C0.0246362 7.32142 -0.0716138 6.91808 0.0548862 6.55417C0.177719 6.19117 0.491219 5.92625 0.869803 5.86667L5.42564 5.20575C5.77214 5.17 6.07647 4.95917 6.2323 4.6475L8.2398 0.531667C8.28747 0.44 8.34889 0.355667 8.42314 0.284167L8.50564 0.22C8.54872 0.172333 8.59822 0.132917 8.65322 0.100833L8.75314 0.0641667L8.90897 0H9.29489C9.63955 0.03575 9.94297 0.242 10.1016 0.55L12.1356 4.6475C12.2823 4.94725 12.5674 5.15533 12.8965 5.20575L17.4523 5.86667C17.8373 5.92167 18.1591 6.1875 18.2865 6.55417C18.4066 6.92175 18.303 7.32508 18.0206 7.59L14.5923 10.835Z"
+                            fill="white" />
+                    </svg>
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.5923 10.835C14.3549 11.0651 14.2458 11.3978 14.2999 11.7242L15.1148 16.2342C15.1836 16.6164 15.0222 17.0033 14.7023 17.2242C14.3888 17.4533 13.9717 17.4808 13.6298 17.2975L9.56989 15.18C9.42872 15.1048 9.27197 15.0645 9.11155 15.0599H8.86314C8.77697 15.0728 8.69264 15.1002 8.61564 15.1424L4.5548 17.27C4.35405 17.3708 4.12672 17.4066 3.90397 17.3708C3.3613 17.2682 2.99922 16.7512 3.08814 16.2058L3.90397 11.6958C3.95805 11.3667 3.84897 11.0321 3.61155 10.7983L0.301469 7.59C0.0246362 7.32142 -0.0716138 6.91808 0.0548862 6.55417C0.177719 6.19117 0.491219 5.92625 0.869803 5.86667L5.42564 5.20575C5.77214 5.17 6.07647 4.95917 6.2323 4.6475L8.2398 0.531667C8.28747 0.44 8.34889 0.355667 8.42314 0.284167L8.50564 0.22C8.54872 0.172333 8.59822 0.132917 8.65322 0.100833L8.75314 0.0641667L8.90897 0H9.29489C9.63955 0.03575 9.94297 0.242 10.1016 0.55L12.1356 4.6475C12.2823 4.94725 12.5674 5.15533 12.8965 5.20575L17.4523 5.86667C17.8373 5.92167 18.1591 6.1875 18.2865 6.55417C18.4066 6.92175 18.303 7.32508 18.0206 7.59L14.5923 10.835Z"
+                            fill="white" />
+                    </svg>
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.5923 10.835C14.3549 11.0651 14.2458 11.3978 14.2999 11.7242L15.1148 16.2342C15.1836 16.6164 15.0222 17.0033 14.7023 17.2242C14.3888 17.4533 13.9717 17.4808 13.6298 17.2975L9.56989 15.18C9.42872 15.1048 9.27197 15.0645 9.11155 15.0599H8.86314C8.77697 15.0728 8.69264 15.1002 8.61564 15.1424L4.5548 17.27C4.35405 17.3708 4.12672 17.4066 3.90397 17.3708C3.3613 17.2682 2.99922 16.7512 3.08814 16.2058L3.90397 11.6958C3.95805 11.3667 3.84897 11.0321 3.61155 10.7983L0.301469 7.59C0.0246362 7.32142 -0.0716138 6.91808 0.0548862 6.55417C0.177719 6.19117 0.491219 5.92625 0.869803 5.86667L5.42564 5.20575C5.77214 5.17 6.07647 4.95917 6.2323 4.6475L8.2398 0.531667C8.28747 0.44 8.34889 0.355667 8.42314 0.284167L8.50564 0.22C8.54872 0.172333 8.59822 0.132917 8.65322 0.100833L8.75314 0.0641667L8.90897 0H9.29489C9.63955 0.03575 9.94297 0.242 10.1016 0.55L12.1356 4.6475C12.2823 4.94725 12.5674 5.15533 12.8965 5.20575L17.4523 5.86667C17.8373 5.92167 18.1591 6.1875 18.2865 6.55417C18.4066 6.92175 18.303 7.32508 18.0206 7.59L14.5923 10.835Z"
+                            fill="white" />
+                    </svg>
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.5923 10.835C14.3549 11.0651 14.2458 11.3978 14.2999 11.7242L15.1148 16.2342C15.1836 16.6164 15.0222 17.0033 14.7023 17.2242C14.3888 17.4533 13.9717 17.4808 13.6298 17.2975L9.56989 15.18C9.42872 15.1048 9.27197 15.0645 9.11155 15.0599H8.86314C8.77697 15.0728 8.69264 15.1002 8.61564 15.1424L4.5548 17.27C4.35405 17.3708 4.12672 17.4066 3.90397 17.3708C3.3613 17.2682 2.99922 16.7512 3.08814 16.2058L3.90397 11.6958C3.95805 11.3667 3.84897 11.0321 3.61155 10.7983L0.301469 7.59C0.0246362 7.32142 -0.0716138 6.91808 0.0548862 6.55417C0.177719 6.19117 0.491219 5.92625 0.869803 5.86667L5.42564 5.20575C5.77214 5.17 6.07647 4.95917 6.2323 4.6475L8.2398 0.531667C8.28747 0.44 8.34889 0.355667 8.42314 0.284167L8.50564 0.22C8.54872 0.172333 8.59822 0.132917 8.65322 0.100833L8.75314 0.0641667L8.90897 0H9.29489C9.63955 0.03575 9.94297 0.242 10.1016 0.55L12.1356 4.6475C12.2823 4.94725 12.5674 5.15533 12.8965 5.20575L17.4523 5.86667C17.8373 5.92167 18.1591 6.1875 18.2865 6.55417C18.4066 6.92175 18.303 7.32508 18.0206 7.59L14.5923 10.835Z"
+                            fill="white" />
+                    </svg>
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.5923 10.835C14.3549 11.0651 14.2458 11.3978 14.2999 11.7242L15.1148 16.2342C15.1836 16.6164 15.0222 17.0033 14.7023 17.2242C14.3888 17.4533 13.9717 17.4808 13.6298 17.2975L9.56989 15.18C9.42872 15.1048 9.27197 15.0645 9.11155 15.0599H8.86314C8.77697 15.0728 8.69264 15.1002 8.61564 15.1424L4.5548 17.27C4.35405 17.3708 4.12672 17.4066 3.90397 17.3708C3.3613 17.2682 2.99922 16.7512 3.08814 16.2058L3.90397 11.6958C3.95805 11.3667 3.84897 11.0321 3.61155 10.7983L0.301469 7.59C0.0246362 7.32142 -0.0716138 6.91808 0.0548862 6.55417C0.177719 6.19117 0.491219 5.92625 0.869803 5.86667L5.42564 5.20575C5.77214 5.17 6.07647 4.95917 6.2323 4.6475L8.2398 0.531667C8.28747 0.44 8.34889 0.355667 8.42314 0.284167L8.50564 0.22C8.54872 0.172333 8.59822 0.132917 8.65322 0.100833L8.75314 0.0641667L8.90897 0H9.29489C9.63955 0.03575 9.94297 0.242 10.1016 0.55L12.1356 4.6475C12.2823 4.94725 12.5674 5.15533 12.8965 5.20575L17.4523 5.86667C17.8373 5.92167 18.1591 6.1875 18.2865 6.55417C18.4066 6.92175 18.303 7.32508 18.0206 7.59L14.5923 10.835Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div class="flex items-center w-2/3 justify-between *:cursor-pointer">
+                    <svg width="50" height="50" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.5" cx="28" cy="28" r="28" transform="matrix(-1 0 0 1 56.5 0.5)"
+                            stroke="white" />
+                        <path
+                            d="M27.1238 21.8768C27.2405 21.8122 27.3676 21.783 27.4926 21.783C27.7717 21.783 28.0394 21.932 28.1811 22.1934C28.3853 22.5737 28.2447 23.0476 27.8644 23.2518C25.9049 24.3091 22.9572 26.3837 22.1712 28.0583L36.817 28.0583C37.2483 28.0583 37.5983 28.4083 37.5983 28.8396C37.5983 29.2708 37.2483 29.6208 36.817 29.6208L22.1729 29.6208C22.9614 31.297 25.9063 33.3704 27.8644 34.4278C28.2447 34.633 28.3853 35.1059 28.1811 35.4861C27.9759 35.8653 27.4999 36.0059 27.1238 35.8028C26.4353 35.433 20.4103 32.0903 20.4103 28.8372C20.4103 25.5882 26.4353 22.2466 27.1238 21.8768Z"
+                            fill="white" />
+                    </svg>
+                    <svg width="50" height="50" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.5" cx="28.5" cy="28.5" r="28" stroke="white" />
+                        <path
+                            d="M29.8762 21.8768C29.7595 21.8122 29.6324 21.783 29.5074 21.783C29.2283 21.783 28.9606 21.932 28.8189 22.1934C28.6147 22.5737 28.7553 23.0476 29.1356 23.2518C31.0951 24.3091 34.0428 26.3837 34.8288 28.0583L20.183 28.0583C19.7517 28.0583 19.4017 28.4083 19.4017 28.8396C19.4017 29.2708 19.7517 29.6208 20.183 29.6208L34.8271 29.6208C34.0386 31.297 31.0937 33.3704 29.1356 34.4278C28.7553 34.633 28.6147 35.1059 28.8189 35.4861C29.0241 35.8653 29.5001 36.0059 29.8762 35.8028C30.5647 35.433 36.5897 32.0903 36.5897 28.8372C36.5897 25.5882 30.5647 22.2466 29.8762 21.8768Z"
+                            fill="white" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

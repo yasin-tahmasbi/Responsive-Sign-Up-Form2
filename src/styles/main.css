@@ -1,0 +1,65 @@
+/* npx @tailwindcss/cli -i ./src/styles/main.css -o ./src/styles/output.css --watch */
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gellix";
+  src: url("../fonts/gellix/Gellix-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gellix";
+  src: url("../fonts/gellix/Gellix-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gellix";
+  src: url("../fonts/gellix/Gellix-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: "gellix";
+  src: url("../fonts/gellix/Gellix-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "creattion";
+  src: url("../fonts/CreattionDemo/CreattionDemo.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --font-gellix: "gellix", sans-serif;
+  --font-inter: "inter", sans-serif;
+  --font-creattion: "creattion", sans-serif;
+}
+
+@layer utilities {
+  .font-gellix {
+    font-family: var(--font-gellix);
+  }
+
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+
+  .font-creattion {
+    font-family: var(--font-creattion);
+  }
+}
