@@ -1,4 +1,4 @@
-## Responsive Sign-Up Form
+## Responsive Sign-Up Form 2
 
 A clean and fully responsive **sign-up form** built with **HTML, CSS, and Tailwind CSS**.  
 The main goal of this project was to **practice building responsive layouts using Tailwind CSS** and improve front-end development skills.
